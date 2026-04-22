@@ -12,7 +12,6 @@ export default function Home() {
 
   return (
     <div className="min-h-screen flex flex-col">
-      {/* Header */}
       <header className="border-b border-white/10 bg-white/5 backdrop-blur-sm">
         <div className="max-w-4xl mx-auto px-6 py-5 flex items-center gap-4">
           <div className="flex items-center gap-3">
@@ -27,7 +26,6 @@ export default function Home() {
         </div>
       </header>
 
-      {/* Tab Nav */}
       <nav className="border-b border-white/10 bg-white/3">
         <div className="max-w-4xl mx-auto px-6 flex gap-1">
           {(
@@ -52,7 +50,6 @@ export default function Home() {
         </div>
       </nav>
 
-      {/* Content */}
       <main className="flex-1 max-w-4xl mx-auto w-full px-6 py-10">
         {tab === "upload" && <UploadAxe />}
         {tab === "random" && <RandomAxes />}

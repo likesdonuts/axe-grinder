@@ -10,10 +10,3 @@ body {
   color: var(--foreground);
   font-family: "Inter", system-ui, -apple-system, sans-serif;
 }
-
-@layer utilities {
-  .scrollbar-thin {
-    scrollbar-width: thin;
-    scrollbar-color: #3f3f5a transparent;
-  }
-}
