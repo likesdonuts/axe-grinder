@@ -1,9 +1,9 @@
 "use client";
 
 import { useState } from "react";
-import UploadAxe from "@/components/UploadAxe";
-import RandomAxes from "@/components/RandomAxes";
-import ManageAxes from "@/components/ManageAxes";
+import UploadAxe from "../components/UploadAxe";
+import RandomAxes from "../components/RandomAxes";
+import ManageAxes from "../components/ManageAxes";
 
 type Tab = "upload" | "random" | "manage";
 

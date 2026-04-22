@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { createAxe, getAllAxes } from "@/lib/db";
+import { createAxe, getAllAxes } from "../../../lib/db";
 
 export async function GET() {
   try {
