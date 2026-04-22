@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { getRandomAxes } from "@/lib/db";
+import { getRandomAxes } from "../../../../lib/db";
 
 export async function GET(req: NextRequest) {
   try {

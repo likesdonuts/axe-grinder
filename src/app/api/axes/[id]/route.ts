@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { deleteAxe, getAxeById } from "@/lib/db";
+import { deleteAxe, getAxeById } from "../../../../lib/db";
 
 export async function GET(
   _req: NextRequest,
